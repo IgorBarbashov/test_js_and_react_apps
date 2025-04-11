@@ -10,5 +10,6 @@
   - `describe.skip`, `test.skip` / `xit`
   - `test.todo` - todo-шка для будущего теста
   - `test.concurrent` - запуск тестов в параллельном режиме
-- [Хуки]()
-  - 
+- [Хуки](./hooks/hooks.test.js) (scope хуков - `describe`, мы котором мы их указали, в т.ч. во вложенных)
+  - `beforeAll` / `afterAll` 
+  - `beforeEach` / `afterEach`
